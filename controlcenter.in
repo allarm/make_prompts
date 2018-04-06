@@ -1,0 +1,92 @@
+#
+#	Control center phrases collection
+#
+#	v1.0
+#
+#	Compiled by Chertolyas Andrey
+#
+#   Examples:
+#
+#	Emphasys
+#
+# On May tenth, you have a meeting in Cupertino. On [[emph +]] June [[emph -]] tenth, you [[emph -]] 
+# have a [[emph -]] meeting in [[emph +]] Tokyo. On [[emph +]] July [[emph -]] tenth, you [[emph -]] have a [[emph -]] meeting in [[emph +]] Paris.
+#
+#	Arbitrary pauses
+#
+# One [[slnc 1000]] two
+#
+
+Please enter your pin		;enter_your_pin
+
+Welcome to control center [[slnc 600]] To manage the call center press 1 [[slnc 400]] To configure holidays press 2 [[slnc 400]] To configure working hours press 3 [[slnc 400]] To configure weekends press 4 [[slnc 400]] 							;control_center_main_menu
+
+The call center is currently closed. Press 1 to open it. Press 2 to put it in auto state. Press 3 to manage a special closing message.			;call_center_is_closed
+The call center is currently open. Press 1 to close it. Press 2 to put it in auto state. Press 3 to manage a special closing message.			;call_center_is_open
+The call center is currently in auto state. Press 1 to open it. Press 2 to close it. Press 3 to manage a special closing message.			;call_center_is_auto
+Call center state has been changed to auto.							;call_center_hb_changed_auto
+Call center has been closed.									;call_center_hb_closed
+Call center has been opened.									;call_center_hb_opened
+
+# Closing message
+
+Special closing message is curently enabled							;spec_clos_msg_enabled
+Special closing message is currently disabled. The default message is being played. 		;spec_clos_msg_disabled
+Current special closing message is [[slnc 400]] 						;current_special_closing_msg
+To record a new special closing message press 1.						;record_new_spec_clos_msg
+To enable a special closing message press 2							;to_enable_spc
+To disable a special closing message press 2							;to_disable_spc
+A special closing message is enabled								;spec_clos_msg_is_enabled
+The default closing message is being used 							;spec_clos_msg_is_disabled
+Press 1 to enable the special closing message							;enable_spec_clos_msg
+Press 3 to use a default closing message							;use_default_clos_msg
+The special closing message has been recorded							;spec_clos_msg_hb_rec
+The special closing message has been enabled							;spec_clos_msg_hb_en
+The default closing message has been enabled							;def_clos_msg_hb_en
+
+                 
+
+# Call center managing menu
+
+To manage the message of the day press 1 [[slnc 400]] to close or open the call center press 2 [[slnc 400]] to return to main menu press zero ;cc_manage_menu
+
+# MOTD phrases
+
+There is no message of the day recorded 							;no_motd_recorded
+Current message of the day is 									;current_motd_is
+If you want to record a new message of the day press 1. To change status press 2.		;new_motd_rec_req
+Start recording after the tone. To stop recording press pound. To cancel press star.		;start_recording_after_tone
+You have recorded:										;you_have_recorded
+Press 1 to use this message. Press 2 to cancel.							;use_this_msg_req
+The message of the day has been changed.							;motd_hb_changed
+The message of the day is currently enabled							;motd_currently_enabled
+The message of the day is currently disabled							;motd_currently_disabled
+If you want to enable it press 1. Otherwise press 2.						;motd_enable_req
+If you want to disable it press 1. Otherwise press 2.						;motd_disable_req
+The message of the day has been enabled 							;motd_hb_enabled
+The message of the day has been disabled 							;motd_hb_disabled
+
+# Weekdays
+
+Monday												;monday
+Tuesday												;tuesday
+Wednesday											;wednesday
+Thursday											;thursday
+Friday												;friday
+Saturday											;saturday
+Sunday												;sunday
+
+# Working hours configuration
+
+Currently configured working hours are from							;current_working_hours	
+To 												;to
+Press 1 to configure opening time, press 2 to configure closing time 				;config_time_req
+Please enter opening time in 4 digits 24 hours format, for example 10 30 for 10 hours 30 minutes in the morning	;enter_opening_time
+Please enter closing time in 4 digits 24 hours format, for example 17 30 for 5 hours 30 minutes in the evening	;enter_closing_time
+Opening time has been changed 									;opening_time_hb_changed
+Closing time has been changed 									;closing_time_hb_changed
+The time you have entered is incorrect. Please try again.					;wrong_time
+
+# Other phrases
+
+This feature has not been implemented yet.							;feature_hnb_implemented

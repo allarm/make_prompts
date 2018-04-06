@@ -1,0 +1,39 @@
+VOICE = Karen
+OBJS = callcenter.in controlcenter.in numerals.in
+
+NUMERALS_OBJ = numerals.in
+NUMERALS_PATH = numerals
+CALLCENTER_OBJ = callcenter.in
+CALLCENTER_PATH = callcenter
+CONTROLCENTER_OBJ = controlcenter.in
+CONTROLCENTER_PATH = controlcenter
+
+PROCESS_STRING = ./say_from_string.sh
+
+
+all: ${OBJS}
+	$(PROCESS_STRING) ${NUMERALS_OBJ} ${VOICE} ${NUMERALS_PATH}
+	$(PROCESS_STRING) ${CALLCENTER_OBJ} ${VOICE} ${CALLCENTER_PATH}
+	$(PROCESS_STRING) ${CONTROLCENTER_OBJ} ${VOICE} ${CONTROLCENTER_PATH}
+
+numerals: ${NUMERALS_OBJ}
+	$(PROCESS_STRING) ${NUMERALS_OBJ} ${VOICE} ${NUMERALS_PATH}
+
+callcenter: ${CALLCENTER_OBJ}
+	$(PROCESS_STRING) ${CALLCENTER_OBJ} ${VOICE} ${CALLCENTER_PATH}
+
+controlcenter: ${CONTROLCENTER_OBJ}
+	$(PROCESS_STRING) ${CONTROLCENTER_OBJ} ${VOICE} ${CONTROLCENTER_PATH}
+
+clean:
+	rm -f ${NUMERALS_PATH}/*.wav
+	rm -f ${NUMERALS_PATH}/*.aiff
+	rm -f ${NUMERALS_PATH}/*.zip
+	
+	rm -f ${CALLCENTER_PATH}/*.wav
+	rm -f ${CALLCENTER_PATH}/*.aiff
+	rm -f ${CALLCENTER_PATH}/*.zip
+
+	rm -f ${CONTROLCENTER_PATH}/*.wav
+	rm -f ${CONTROLCENTER_PATH}/*.aiff
+	rm -f ${CONTROLCENTER_PATH}/*.zip

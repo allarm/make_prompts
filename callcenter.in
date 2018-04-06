@@ -1,0 +1,28 @@
+#
+#	Call center phrases collection
+#
+#	v1.0
+#
+#	Compiled by Chertolyas Andrey
+#
+#   Examples:
+# 
+#	Emphasys
+#
+# On May tenth, you have a meeting in Cupertino. On [[emph +]] June [[emph -]] tenth, you [[emph -]] 
+# have a [[emph -]] meeting in [[emph +]] Tokyo. On [[emph +]] July [[emph -]] tenth, you [[emph -]] have a [[emph -]] meeting in [[emph +]] Paris.
+#
+#	Arbitrary pauses
+#
+# One [[slnc 1000]] two
+#
+
+
+Thank you for calling Invis Align. You have reached our offices after hours. ;after_hours
+All of our agents are taking care of other customers. Please stay on the line. The next available agent will be with you shortly. ;all_agents_busy
+Please call back later. Thank you. ;call_back_later
+
+Please leave a message and your call will be returned when we return ;leave_message
+Thank you for calling Invis Align. At this time, our office is closed.  			;office_is_closed
+Thank you ;thank_you
+Thank you for waiting. Please stay on the line. The next available agent will be with you shortly. Your position in the queue is:	;your_position_in_queue

@@ -1,0 +1,7 @@
+# Directories
+[Dd]oc/
+
+# Files
+
+*.wav
+*.aiff
